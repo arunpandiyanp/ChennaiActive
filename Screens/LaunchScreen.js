@@ -43,9 +43,9 @@ const LaunchScreen = ({ navigation }) => {
     }
   };
 
-  useEffect(() => {
-    requestLocationPermission();
-  }, []);
+  // useEffect(() => {
+  //   requestLocationPermission();
+  // }, []);
 
   return (
     <ImageBackground 
